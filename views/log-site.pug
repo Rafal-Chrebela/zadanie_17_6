@@ -1,0 +1,13 @@
+html(lang="en")
+  head
+    meta(charset="UTF-8")
+    title Please log in
+  body
+    form(action="http://localhost:3000/auth/google", method="GET")
+      p
+        | First Name:
+        input(type="text", name="first_name")
+      p
+        | Last Name:
+        input(type="text", name="last_name")
+      input.btn(type="submit", value="Log In")
