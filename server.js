@@ -9,7 +9,7 @@ app.get("/", function(req, res) {
 });
 
 app.get("/auth/google", function(req, res) {
-  res.render("succes", {
+  res.render("success", {
     first_name: req.query.first_name,
     last_name: req.query.last_name
   });
